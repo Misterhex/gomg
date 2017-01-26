@@ -1,0 +1,4 @@
+postgres:
+   environment:
+      - POSTGRES_PASSWORD=xxx
+   image: postgres

@@ -1,0 +1,12 @@
+gomg:
+   build: . 
+   restart: always
+   environment:
+   - CONTAINER_NAME=images
+   - POSTGRES_USER=postgres
+   - POSTGRES_DB=postgres
+   - POSTGRES_PASSWORD=xxx
+   - POSTGRES_PORT_5432_TCP_ADDR=localhost
+   - IMAGE_SERVER=xxx   
+   volumes:x
+   - ./images:/go/bin/images
