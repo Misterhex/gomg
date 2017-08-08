@@ -1,7 +1,4 @@
 # gomg
-This project was created as an attempt for me to pick up Go.
-
-## Overview
 This is a web scrapper that scrap a particular manga site for all of its content and re-serving them at my own domain.
 
 1. walking through the links, 
